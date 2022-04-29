@@ -1,0 +1,275 @@
+.container {
+	scroll-snap-type: y mandatory;
+	margin-top: -80px;
+	/* overflow-y: scroll; */
+	height: 100vh;
+}
+
+.navSection {
+	max-width: 900px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.homepage {
+	position: relative;
+	z-index: 0;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start;
+}
+
+.homepage::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	font-size: clamp(2.5rem, 10vw, 4rem);
+	z-index: 100;
+}
+
+.navElements {
+	height: 100%;
+	width: 65%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navElements img {
+	height: 60%;
+	padding: 0 20px;
+}
+
+.navElements li {
+	height: 50%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+.navElements li:hover {
+	background-color: white;
+	color: black;
+}
+
+.background {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.people {
+	scroll-snap-align: start;
+	background-color: #112131;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.person {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.personName {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.personInfo {
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.pictureDiv {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.pictureDiv p {
+	color: black;
+}
+
+.personPic {
+	height: 250px;
+	width: auto;
+	border-radius: 10px;
+}
+
+.peopleSection {
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
+	align-items: center;
+	padding-top: 80px;
+	width: 80%;
+	color: white;
+}
+
+.peopleSection h1 {
+	padding-bottom: 20px;
+	font-size: 2.5rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: black;
+	scroll-snap-align: start;
+	padding-top: 80px;
+}
+
+.inputField {
+	display: flex;
+	flex-direction: column;
+	padding: 35px;
+}
+
+.inputField input {
+	background-color:black;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-right: 100px;
+	margin-left: 100px;
+	color: white;
+}
+
+.formTitle {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.form button {
+	display: flex;
+	align-self: center;
+	width: 17.5%;
+	height: 1.75rem;
+	border-radius: 2.5px;
+	background-color: black;
+	border: none;
+}
+.form p {
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+.form button:hover, .form p:hover {
+	background-color: white;
+	color: black;
+}
+
+.statement {
+	height: 100vh;
+	background-color: #F3DE8A;
+	scroll-snap-align: start;
+	padding-top: 80px;
+}
+
+.statementTitle {
+	display: flex;
+	justify-content: center;
+}
+
+.statementContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px;
+}
+
+.statementPic {
+	width: 50%;
+	border-radius: 10px;
+}
+.statementDescription {
+	font-size: 40px;
+	margin: 40px
+}
+
+
+@media screen and (max-width: 790px) {
+	.navElements li {
+		display: none;
+	}
+	.title {
+		width: 80%;
+	}
+	.peopleSection h1 {
+		padding-bottom: 20px;
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	.statementContainer {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.peopleSection h1 {
+		text-align: center;
+		width: 100%;
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+	.person {
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.personName {
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+
+	.personInfo {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.personPic {
+		height: 180px;
+		width: auto;
+		border-radius: 10px;
+	}
+	.statementContainer {
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+	}
+}
+
+
