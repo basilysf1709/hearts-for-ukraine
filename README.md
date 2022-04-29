@@ -13,26 +13,26 @@ Used ReactJS to build the frontend and designed the backend to use graphQL
 
 # Challenges we ran into
 Accomplishments that we're proud of
-1.Used a user- based design process to come up with the idea and specify requirements
-2.Used UX/UI design principles to make a reasonably responsive website within 10 hours
+1. Used a user- based design process to come up with the idea and specify requirements
+2. Used UX/UI design principles to make a reasonably responsive website within 10 hours
 
 # What we learned
-1.Design
-2.Practicing empathy and using that to make a user focussed design
-3.Understanding the conflict and how it affects the people in a personal sense
-4.Technical skills
-5.Learned to implement React Hooks to change the state of components
-6.How to deploy a website
-7.Testing a website and how to make it responsive
+1. Design
+2. Practicing empathy and using that to make a user focussed design
+3. Understanding the conflict and how it affects the people in a personal sense
+4. Technical skills
+5. Learned to implement React Hooks to change the state of components
+6. How to deploy a website
+7. Testing a website and how to make it responsive
 
 # What's next for HeartsOfUkraine.
-1.Create a CMS system that connects the front-end and back-end of the website for data modification.
-2.Create database to hold all data collected from the website.
-3.Automate data validation and update process
-4.Search feature to find people
-5.Resources tab
+1. Create a CMS system that connects the front-end and back-end of the website for data modification.
+2. Create database to hold all data collected from the website.
+3. Automate data validation and update process
+4. Search feature to find people
+5. Resources tab
 
-Contributors
+# Contributors
 Discord tags:
 patrick dickson#5062 Basil#6404 BeatsByRSD#1059 Rashi#1209
 
