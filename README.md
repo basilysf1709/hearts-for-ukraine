@@ -1,3 +1,46 @@
+
+# Try it out
+Live website: https://code4ukraine-project.netlify.app/
+
+# Inspiration
+While researching for the project, we realized that most of the news about the crisis reports the number of people lost which is less impactful and it is also not helpful to the people who want information about their loved ones. By building a website to host the memoirs for the fallen, we aim to attach names and faces to the numbers and statistics to the fallen so that people can search and view the massive loss of life in the war.
+
+# What it does
+The idea that we came up with is a website to honor all the people that have passed away from the Ukraine-Russia crisis. The website also allows people to send in information about loved ones to be shared and remembered by people. The website also serves as a reminder to the people all around the world of the personal cost of wars.
+
+# How we built it
+Used ReactJS to build the frontend and designed the backend to use graphQL
+
+# Challenges we ran into
+Accomplishments that we're proud of
+1.Used a user- based design process to come up with the idea and specify requirements
+2.Used UX/UI design principles to make a reasonably responsive website within 10 hours
+
+# What we learned
+1.Design
+2.Practicing empathy and using that to make a user focussed design
+3.Understanding the conflict and how it affects the people in a personal sense
+4.Technical skills
+5.Learned to implement React Hooks to change the state of components
+6.How to deploy a website
+7.Testing a website and how to make it responsive
+
+# What's next for HeartsOfUkraine.
+1.Create a CMS system that connects the front-end and back-end of the website for data modification.
+2.Create database to hold all data collected from the website.
+3.Automate data validation and update process
+4.Search feature to find people
+5.Resources tab
+
+Contributors
+Discord tags:
+patrick dickson#5062 Basil#6404 BeatsByRSD#1059 Rashi#1209
+
+Built With
+HTML/CSS
+React
+Styled-Components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
